@@ -1,6 +1,6 @@
 import Hamburger from 'hamburger-react';
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 
 function NavBar() {
     const [isOpen, setOpen] = useState(false)
@@ -16,16 +16,18 @@ function NavBar() {
 
     return (
         <nav>
-            <div className="site-title">DENTONPALOOZA</div>
-            <div className={active} onClick={navOff}>
-                {/* <NavLink className="nav-button" to="/">// home</NavLink>
-                <NavLink className="nav-button" to="/bio">// bio</NavLink>
-                <NavLink className="nav-button" to="/projects">// projects</NavLink>
-                <NavLink className="nav-button" to="/cv">// cv</NavLink>
-                <NavLink className="nav-button" to="/contact">// contact</NavLink> */}
-            </div>
-            <div className="hamburger" onClick={navToggle}>
+            <div className="site-title">DENTONPALOOZA
+                <div className="hamburger" onClick={navToggle}>
                 <Hamburger toggled={isOpen} toggle={setOpen}/>
+                </div>
+                <div className="sub-header">October 12, 2024 / Rubber Gloves Reahearsal Studios</div>
+                <div className={active} onClick={navOff}>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
             </div>
         </nav>
     )
