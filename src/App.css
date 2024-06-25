@@ -95,3 +95,29 @@ nav {
   margin-top: auto;
   margin-bottom: auto;
 }
+
+
+@media only screen and (max-width : 1060px) {
+  .sub-header {
+    float: none;
+    text-align: center;
+    font-size: .9rem;
+    margin-top: 0;
+    margin-right: 0rem;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .image-grid {
+    --gap: 20px;
+    --num-cols: 3;
+    --row-height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+  .message {
+    font-size: 0.8rem;
+  }
+}
