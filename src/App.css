@@ -26,6 +26,10 @@ body {
   text-align: center;
 }
 
+p {
+  font-size: 1rem;
+}
+
 nav {
   background-color:rgba(0, 0, 0, 7);
   padding: 1rem;
@@ -43,6 +47,44 @@ nav {
 .hamburger {
   float: left;
   margin-right: 1.5rem;
+  z-index: 4;
+}
+
+.nav-links {
+  top: 0;
+  left: -200%;
+  position: absolute;
+  background-color: rgb(33, 33, 33, 4);
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #eeeeee;
+  gap: 2rem;
+  z-index: 3;
+  transition: 0.5s ease-in-out;
+  transform: translateX(100%);
+}
+
+.nav-links-active {
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgb(33, 33, 33, 4);
+  opacity: .925;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #eeeeee;
+  gap: 2rem;
+  z-index: 3;
+  transition: 0.5s ease-in-out;
+  transform: translateX(0);
 }
 
 .image-grid {
@@ -119,5 +161,8 @@ nav {
   }
   .message {
     font-size: 0.8rem;
+  }
+  .nav-links-active {
+    width: 50%;
   }
 }

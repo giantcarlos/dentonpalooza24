@@ -21,13 +21,14 @@ function NavBar() {
                 <Hamburger toggled={isOpen} toggle={setOpen}/>
                 </div>
                 <div className="sub-header">October 12, 2024 / Rubber Gloves Reahearsal Studios</div>
-                {/* <div className={active} onClick={navOff}>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                </div> */}
+                <div className={active} onClick={navOff}>
+                    <p>Home</p>
+                    <p>Lineup</p>
+                    <p>Schedule</p>
+                    <p>Tickets</p>
+                    <p>Merch</p>
+                    <p>Press</p>
+                </div>
             </div>
         </nav>
     )
