@@ -7,8 +7,8 @@ function App() {
     <>
       <div>
         <header>
+          <NavBar />
         </header>
-        <NavBar />
       </div>
     </>
   )
