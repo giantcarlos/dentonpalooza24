@@ -16,7 +16,7 @@ function NavBar() {
 
     return (
         <nav>
-            <div className="site-title">DENTONPALOOZA 4
+            <div className="header">DENTONPALOOZA 4
                 <div className="hamburger" onClick={navToggle}>
                 <Hamburger toggled={isOpen} toggle={setOpen}/>
                 </div>
