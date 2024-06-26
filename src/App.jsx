@@ -23,7 +23,7 @@ function App() {
           <a href='https://danssilverleaf.com/' target="_blank"><img src={"https://i.imgur.com/jHoY46F.png"} alt='logo of Dans Silverleaf' /></a>
           <div className="message">A big thanks to our sponsors!</div>
       </div>
-        <img src={'https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F14e20fb0-b515-4cb2-99a7-1c1b3d9bab1a_5521x3681.jpeg'} className="bg-image" alt="background"/>
+        <img src={'https://i.imgur.com/89t25C1.jpeg'} className="bg-image" alt="background"/>
       </div>
     </>
   )

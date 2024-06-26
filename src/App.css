@@ -31,7 +31,7 @@ p {
 }
 
 nav {
-  background-color:rgba(0, 0, 0, 7);
+  /* background-color:rgba(0, 0, 0, 7); */
   padding: 1rem;
   font-size: 2.25rem;
   text-align: left;
@@ -40,7 +40,7 @@ nav {
   right: 0;
   left: 0;
   bottom: 0;
-  z-index: auto;
+  z-index: 2;
 }
 
 .sub-header {
@@ -109,7 +109,7 @@ nav {
   grid-template-columns: repeat(var(--num-cols), 1fr);
   grid-auto-rows: var(--row-height);
   gap: var(--gap);
-  z-index: 0;
+  z-index: 1;
   position: relative;
 }
 
@@ -158,6 +158,10 @@ nav {
   }
 }
 
+.bg-image {
+  max-width: 100%;
+}
+
 
 @media only screen and (max-width: 900px) {
   .hamburger {
@@ -167,6 +171,7 @@ nav {
     --gap: 20px;
     --num-cols: 3;
     --row-height: 65px;
+    margin-top: 5.5rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
