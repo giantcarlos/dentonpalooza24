@@ -1,5 +1,6 @@
 import './App.css'
 import NavBar from './Components/NavBar';
+import Images from './Components/Images';
 
 function App() {
 
@@ -22,8 +23,8 @@ function App() {
           <a href='https://rubberglovesdenton.com/' className='image-reverse-gray' target="_blank"><img src={"https://i.imgur.com/6ZhmD7H.png"} alt='logo of Rubber Gloves' /></a>
           <a href='https://danssilverleaf.com/' target="_blank"><img src={"https://i.imgur.com/jHoY46F.png"} alt='logo of Dans Silverleaf' /></a>
           <div className="message">A big thanks to our sponsors!</div>
-      </div>
-        <img src={'https://i.imgur.com/89t25C1.jpeg'} className="bg-image" alt="background"/>
+        </div>
+        <Images />
       </div>
     </>
   )
