@@ -3,9 +3,11 @@ import React, { Component } from 'react'
 export default class Images extends Component {
   render() {
     return (
-      <div>
-         <img src={'https://i.imgur.com/89t25C1.jpeg'} className="bg-image" alt="background"/>
-      </div>
+      <div className='image-container'>
+        <div className='pic' id='pic3' />
+        <div className='pic' id='pic2' />
+        <div className='pic' id='pic1' alt="Singer of Riverboat Gamblers crowdsurfing." />
+    </div>
     )
   }
 }
