@@ -145,11 +145,6 @@ nav {
   margin-bottom: auto;
 }
 
-.books {
-  max-width: 100%;
-  filter: grayscale() sepia(50%);
-}
-
 
 @media only screen and (max-width : 1060px) {
   .sub-header {
@@ -231,6 +226,32 @@ nav {
   100% {
     opacity: 1;
   }
+}
+
+.schedule {
+  display: grid;
+  grid-template-columns: repeat(2);
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.books, .poster {
+  grid-row: 1 / 2;
+}
+
+.books {
+  grid-column: 1/2;
+  max-width: 100%;
+  filter: grayscale() sepia(50%);
+}
+
+.poster {
+  grid-column: 1 / 1;
+  max-width: 40%;
+  z-index: 10;
+  align-self: center;
+  margin-top: 10rem;
+  margin-left: 5rem;
 }
 
 
