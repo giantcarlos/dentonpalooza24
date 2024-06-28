@@ -2,7 +2,7 @@ import './App.css'
 import NavBar from './Components/NavBar';
 import Sponsors from './Components/Sponsors';
 import Images from './Components/Images';
-import Schedule from './Components/Schedule';
+import Lineup from './Components/Lineup';
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
         </header>
         <Sponsors />
         <Images />
-        <Schedule />
+        <Lineup />
       </div>
     </>
   )
