@@ -4,14 +4,14 @@
 
 @font-face {
   font-family: Arial Black;
-  src: url('../public/Arial-Black.ttf') format('truetype');
+  src: url('../Arial-Black.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: Arial Black;
-  src: url('../public/Arial-Black-Italic.ttf') format('truetype');
+  src: url('../Arial-Black-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
@@ -229,13 +229,14 @@ nav {
 }
 
 .lineup {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(2);
   max-width: 100%;
   margin: 0 auto;
 }
 
-.books, .poster {
+.books, .poster, .ticket-text, .ticket-text2 {
   grid-row: 1 / 2;
 }
 
@@ -248,14 +249,31 @@ nav {
 .poster {
   grid-column: 1 / 1;
   max-width: 40%;
-  z-index: 10;
+  z-index: 1;
   align-self: center;
   margin-top: 10rem;
   margin-left: 5rem;
 }
 
+.ticket-text {
+  color: rgb(12, 12, 12);
+  text-align: right;
+  margin-top: 21rem;
+  margin-right: 5rem;
+  grid-column: 2 / 1;
+  z-index: 1;
+}
 
-@media only screen and (max-width: 900px) {
+.ticket-text2 {
+  color: rgb(12, 12, 12);
+  text-align: right;
+  margin-top: 24rem;
+  margin-right: 5rem;
+  grid-column: 2 / 1;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 992px) {
   .hamburger {
     margin-right: .5rem;
   }
@@ -287,5 +305,8 @@ nav {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+  }
+  .ticket-text, .ticket-text2 {
+    display: none;
   }
 }
