@@ -2,6 +2,7 @@ import './App.css'
 import NavBar from './Components/NavBar';
 import Sponsors from './Components/Sponsors';
 import Images from './Components/Images';
+import Schedule from './Components/Schedule';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         </header>
         <Sponsors />
         <Images />
+        <Schedule />
       </div>
     </>
   )
