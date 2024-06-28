@@ -190,11 +190,13 @@ nav {
   animation-delay: 0s;
   background-image: url('https://i.imgur.com/01V7ghQ.jpeg');
   filter: grayscale() sepia(50%);
+  box-shadow: 0 0 16px 16px black inset;
 }
 #pic2 {
   background-image: url('https://i.imgur.com/wz8aOwo.jpeg');
   animation-delay: 5s;
   filter: grayscale() sepia(50%);
+  box-shadow: 0 0 16px 16px black inset;
 }
 @-webkit-keyframes fade {
   0% {
