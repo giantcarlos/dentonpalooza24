@@ -16,7 +16,7 @@ export default class Shop extends Component {
         </div>
         <div className="beneficiaries">
             <h3>BENEFICIARIES</h3>
-            <p>Funds raised are distributed evenly between DMAC, The Art Room, and Leukemia Texas.</p>
+            <p>All funds raised are distributed evenly between our beneficiaries.</p>
             <h3>DMAC / THE ART ROOM / LEUKEMIA TEXAS</h3>
         </div>
       </div>
