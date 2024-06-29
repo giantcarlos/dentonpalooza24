@@ -288,18 +288,25 @@ nav {
   grid-template-columns: repeat(3);
   max-width: 100%;
   margin: 0 auto;
+  color:rgb(12, 12, 12)
 }
 
 .tickets {
   grid-column: 1;
+  background-color: blue;
+  color: rgb(12, 12, 12);
 }
 
 .merch {
   grid-column: 2;
+  background-color: green;
+  color: rgb(12, 12, 12);
 }
 
 .beneficiaries {
   grid-column: 3;
+  background-color: yellow;
+  color: rgb(12, 12, 12);
 }
 
 @media only screen and (max-width: 992px) {
