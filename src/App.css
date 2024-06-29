@@ -120,7 +120,6 @@ nav {
   grid-auto-rows: var(--row-height);
   gap: var(--gap);
   z-index: 1;
-  position: relative;
 }
 
 .image-grid > a > img {
@@ -241,7 +240,6 @@ nav {
 }
 
 .lineup {
-  position: relative;
   display: grid;
   grid-template-columns: repeat(2);
   max-width: 100%;
@@ -283,6 +281,25 @@ nav {
   margin-right: 5rem;
   grid-column: 2 / 1;
   z-index: 1;
+}
+
+.shop {
+  display: grid;
+  grid-template-columns: repeat(3);
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.tickets {
+  grid-column: 1;
+}
+
+.merch {
+  grid-column: 2;
+}
+
+.beneficiaries {
+  grid-column: 3;
 }
 
 @media only screen and (max-width: 992px) {
