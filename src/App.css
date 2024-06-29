@@ -285,7 +285,7 @@ nav {
 
 .shop {
   display: grid;
-  grid-template-columns: repeat(3);
+  grid-template-columns: repeat(3, 1fr);
   max-width: 100%;
   margin: 0 auto;
   color:rgb(12, 12, 12)
@@ -293,19 +293,19 @@ nav {
 
 .tickets {
   grid-column: 1;
-  background-color: blue;
+  background-color: rgb(39, 130, 221);
   color: rgb(12, 12, 12);
 }
 
 .merch {
   grid-column: 2;
-  background-color: green;
+  background-color: rgb(85, 153, 79);
   color: rgb(12, 12, 12);
 }
 
 .beneficiaries {
   grid-column: 3;
-  background-color: yellow;
+  background-color: rgb(219, 219, 63);
   color: rgb(12, 12, 12);
 }
 
