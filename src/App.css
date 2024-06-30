@@ -25,6 +25,11 @@ body {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(12, 12, 12);;
+}
+
 p {
   font-size: 1rem;
 }
@@ -50,8 +55,7 @@ nav {
   right: 0;
   left: 0;
   bottom: 0;
-  z-index: 2;
-  position: absolute;
+  z-index: 10;
 }
 
 .sub-header {
@@ -83,6 +87,7 @@ nav {
   gap: 2rem;
   transition: 0.5s ease-in-out;
   transform: translateX(100%);
+  z-index: 10;
 }
 
 .nav-links-active {
@@ -101,6 +106,7 @@ nav {
   gap: 2rem;
   transition: 0.5s ease-in-out;
   transform: translateX(0);
+  z-index: 10;
 }
 
 .image-grid {
@@ -156,21 +162,9 @@ nav {
   margin-bottom: auto;
 }
 
-
-@media only screen and (max-width : 1060px) {
-  .sub-header {
-    float: none;
-    text-align: center;
-    font-size: .9rem;
-    margin-top: 0;
-    margin-right: 0rem;
-  }
-}
-
 .bg-image {
   max-width: 100%;
 }
-
 
 .image-container {
   position: relative;
@@ -283,30 +277,47 @@ nav {
   z-index: 1;
 }
 
-.shop {
+.shop-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   max-width: 100%;
   margin: 0 auto;
-  color:rgb(12, 12, 12)
+  color:rgb(12, 12, 12);
 }
 
 .tickets {
+  align-content: center;
+  padding: 3rem;
   grid-column: 1;
   background-color: rgb(39, 130, 221);
   color: rgb(12, 12, 12);
 }
 
 .merch {
+  align-content: center;
+  padding: 3rem;
   grid-column: 2;
   background-color: rgb(85, 153, 79);
   color: rgb(12, 12, 12);
 }
 
 .beneficiaries {
+  align-content: center;
+  padding: 3rem;
   grid-column: 3;
   background-color: rgb(219, 219, 63);
   color: rgb(12, 12, 12);
+}
+
+
+@media only screen and (max-width : 1060px) {
+  .sub-header {
+    float: none;
+    text-align: center;
+    font-size: .9rem;
+    margin-top: 0;
+    margin-right: 0rem;
+  }
 }
 
 @media only screen and (max-width: 992px) {
