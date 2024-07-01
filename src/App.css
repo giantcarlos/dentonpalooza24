@@ -31,7 +31,7 @@ a {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 h1 {
@@ -189,13 +189,13 @@ nav {
 #pic1 {
   animation-delay: 0s;
   background-image: url('https://i.imgur.com/01V7ghQ.jpeg');
-  filter: grayscale() sepia(40%);
+  filter: grayscale() sepia(25%);
   box-shadow: 0 0 16px 16px black inset;
 }
 #pic2 {
   background-image: url('https://i.imgur.com/wz8aOwo.jpeg');
   animation-delay: 5s;
-  filter: grayscale() sepia(40%);
+  filter: grayscale() sepia(25%);
   box-shadow: 0 0 16px 16px black inset;
 }
 @-webkit-keyframes fade {
@@ -247,7 +247,7 @@ nav {
 .books {
   grid-column: 1/2;
   max-width: 100%;
-  filter: grayscale() sepia(40%);
+  filter: grayscale() sepia(25%);
 }
 
 .poster {
