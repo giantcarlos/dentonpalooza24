@@ -22,12 +22,12 @@ function NavBar() {
                 </div>
                 <div className="sub-header">October 12, 2024 / Rubber Gloves Reahearsal Studios</div>
                 <div className={active} onClick={navOff}>
-                    <p>HOME</p>
-                    <p>LINEUP</p>
-                    <p>SCHEDULE</p>
-                    <p>TICKETS</p>
-                    <p>MERCH</p>
-                    <p>PRESS</p>
+                    <p>HOME ➤</p>
+                    <p>LINEUP ➤</p>
+                    <p>SCHEDULE ➤</p>
+                    <p>TICKETS ➤</p>
+                    <p>MERCH ➤</p>
+                    <p>PRESS ➤</p>
                 </div>
             </div>
         </nav>
