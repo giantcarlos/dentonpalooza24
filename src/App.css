@@ -313,6 +313,19 @@ nav {
 }
 
 
+@media only screen and (max-width : 1200px) {
+  .poster {
+    max-width: 55%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ticket-text, .ticket-text2 {
+    display: none;
+  }
+}
+
+
 @media only screen and (max-width : 1060px) {
   .sub-header {
     float: none;
