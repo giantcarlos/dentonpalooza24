@@ -24,7 +24,6 @@ function NavBar() {
                 <div className={active} onClick={navOff}>
                     <p>HOME ➤</p>
                     <p>LINEUP ➤</p>
-                    <p>SCHEDULE ➤</p>
                     <p>TICKETS ➤</p>
                     <p>MERCH ➤</p>
                     <p>PRESS ➤</p>

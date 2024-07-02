@@ -92,6 +92,7 @@ nav {
   transition: 0.5s ease-in-out;
   transform: translateX(100%);
   z-index: 10;
+  
 }
 
 .nav-links-active {
@@ -111,6 +112,7 @@ nav {
   transition: 0.5s ease-in-out;
   transform: translateX(0);
   z-index: 10;
+  pointer-events: all;
 }
 
 .image-grid {
