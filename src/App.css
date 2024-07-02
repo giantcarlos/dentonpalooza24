@@ -202,7 +202,7 @@ nav {
   background-image: url('https://i.imgur.com/wz8aOwo.jpeg');
   animation-delay: 5s;
   filter: grayscale() sepia(25%);
-  box-shadow: 0 0 54px 54px black inset;
+  box-shadow: 0 0 42px 42px black inset;
 }
 @-webkit-keyframes fade {
   0% {
