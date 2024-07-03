@@ -46,6 +46,13 @@ h3 {
   font-size: 1.45rem;
 }
 
+.links {
+  font-size: 1.125rem;
+  color: #eeeeee;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 nav {
   padding: 1rem;
   font-size: 2.25rem;
