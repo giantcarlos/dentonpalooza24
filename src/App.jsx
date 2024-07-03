@@ -5,6 +5,7 @@ import Sponsors from './Components/Sponsors';
 import Images from './Components/Images';
 import Lineup from './Components/Lineup';
 import Shop from './Components/Shop';
+import Press from './Components/Press';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Images />
         <Lineup />
         <Shop />
+        <Press />
       </div>
     </BrowserRouter>
   )

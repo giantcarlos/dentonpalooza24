@@ -26,7 +26,7 @@ function NavBar() {
                     <HashLink smooth to="#lineup" className="links">LINEUP ➤</HashLink>
                     <HashLink smooth to="#shop" className="links">TICKETS ➤</HashLink>
                     <HashLink smooth to="#shop" className="links">MERCH ➤</HashLink>
-                    <HashLink smooth to="#" className="links">PRESS ➤</HashLink>
+                    <HashLink smooth to="#press" className="links">PRESS ➤</HashLink>
                 </div>
             </div>
         </nav>
