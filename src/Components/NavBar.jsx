@@ -1,6 +1,6 @@
 import Hamburger from 'hamburger-react';
 import React, { useState } from 'react';
-// import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 function NavBar() {
     const [isOpen, setOpen] = useState(false)

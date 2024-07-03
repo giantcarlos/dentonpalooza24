@@ -1,4 +1,5 @@
 import './App.css'
+import { BrowserRouter } from 'react-router-dom';
 import NavBar from './Components/NavBar';
 import Sponsors from './Components/Sponsors';
 import Images from './Components/Images';
@@ -8,7 +9,7 @@ import Shop from './Components/Shop';
 function App() {
 
   return (
-    <>
+    <BrowserRouter>
       <div>
         <header>
           <NavBar />
@@ -18,7 +19,7 @@ function App() {
         <Lineup />
         <Shop />
       </div>
-    </>
+    </BrowserRouter>
   )
 }
 
