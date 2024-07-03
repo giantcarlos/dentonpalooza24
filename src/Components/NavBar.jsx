@@ -22,11 +22,11 @@ function NavBar() {
                 </div>
                 <div className="sub-header">October 12, 2024 / Rubber Gloves Reahearsal Studios</div>
                 <div className={active} onClick={navOff}>
-                    <HashLink to="#" className="links">HOME ➤</HashLink>
-                    <HashLink to="#lineup" className="links">LINEUP ➤</HashLink>
-                    <HashLink to="#shop" className="links">TICKETS ➤</HashLink>
-                    <HashLink to="#shop" className="links">MERCH ➤</HashLink>
-                    <HashLink to="#" className="links">PRESS ➤</HashLink>
+                    <HashLink smooth to="#" className="links">HOME ➤</HashLink>
+                    <HashLink smooth to="#lineup" className="links">LINEUP ➤</HashLink>
+                    <HashLink smooth to="#shop" className="links">TICKETS ➤</HashLink>
+                    <HashLink smooth to="#shop" className="links">MERCH ➤</HashLink>
+                    <HashLink smooth to="#" className="links">PRESS ➤</HashLink>
                 </div>
             </div>
         </nav>
