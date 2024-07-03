@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Shop extends Component {
   render() {
     return (
-      <div className="shop-grid">
+      <section id="shop" className="shop-grid">
         <div className="tickets">
             <h3>TICKETS</h3>
             <h4>Each ticket is priced at $20</h4>
@@ -19,7 +19,7 @@ export default class Shop extends Component {
             <h4>All funds raised are distributed evenly between our beneficiaries.</h4>
             <h4><a href="https://dmacdenton.org/" target="_blank">DMAC ➤</a> / <a href="https://theartroomdenton.org/" target="_blank">THE ART ROOM ➤</a> / <a href="https://leukemiatexas.org/" target="_blank">LEUKEMIA TEXAS ➤</a></h4>
         </div>
-      </div>
+      </section>
     )
   }
 }
