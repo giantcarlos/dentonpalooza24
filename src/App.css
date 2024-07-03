@@ -328,20 +328,12 @@ nav {
   margin-bottom: 3rem;
 }
 
-.press {
-  /* float: left; */
-  /* text-align: center; */
-  /* margin-top: auto;
-  margin-bottom: auto; */
-  color:rgb(12, 12, 12);
-}
-
 .press-card {
-  display: flex;
+  display: grid;
   background-color: gray;
-  height: 20rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  height: 15rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
   margin-bottom: 2rem;
 }
 
@@ -354,20 +346,25 @@ nav {
 }
 
 .press-image {
-  width: 35%;
-  float: right;
+  grid-column: 1;
+  width: 25rem;
+  float: left;
   overflow: hidden;
 }
 
 .press-image > img {
-  width: 600px;
+  width: 100%;
   float: left;
   transition: 200ms transform ease-in-out;
 }
 
 .press-text {
+  grid-column: 2;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .press-title {
