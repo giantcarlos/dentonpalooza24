@@ -14,13 +14,13 @@ export default class Press extends Component {
                 <div className="press-details">Juan Betancourt / Denton Record-Chronicle</div>
                 <div className="press-date">6.18.24</div>
             </a>
-            <a className="press-card" href="" target="_blank">
+            <a className="press-card" href="https://www.dallasobserver.com/music/denton-festival-dentonpalooza-is-back-with-more-quirkiness-19644739" target="_blank">
                 <div className="press-image">
-                    <img src="" className="image-gray" alt='' />
+                    <img src="https://media1.dallasobserver.com/dal/imager/the-meme-keeps-giving-with-dentonpalooza-4/u/magnum/19644776/bookstallpeople.jpg?cb=1719521860" className="image-gray" alt='Books for Tall People sign at Recycled Books' />
                 </div>
-                <div className="press-title"></div>
-                <div className="press-details"></div>
-                <div className="press-date"></div>
+                <div className="press-title">The Meme Keeps Giving: Dentonpalooza 4</div>
+                <div className="press-details">Diamond Rodrigue / Dallas Observer</div>
+                <div className="press-date">6.21.24</div>
             </a>
         </div>
       </section>
