@@ -6,6 +6,7 @@ import Images from './Components/Images';
 import Lineup from './Components/Lineup';
 import Shop from './Components/Shop';
 import Press from './Components/Press';
+import Footer from './Components/Footer';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Lineup />
         <Shop />
         <Press />
+        <Footer />
       </div>
     </BrowserRouter>
   )
