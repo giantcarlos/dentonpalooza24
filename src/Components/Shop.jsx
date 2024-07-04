@@ -16,7 +16,7 @@ export default class Shop extends Component {
         </div>
         <div className="beneficiaries">
             <h3>BENEFICIARIES</h3>
-            <h4>All funds raised are distributed evenly between our beneficiaries.</h4>
+            <h4>All funds raised benefit these charities.</h4>
             <h4><a href="https://dmacdenton.org/" target="_blank">DMAC ➤</a> / <a href="https://theartroomdenton.org/" target="_blank">THE ART ROOM ➤</a> / <a href="https://leukemiatexas.org/" target="_blank">LEUKEMIA TEXAS ➤</a></h4>
         </div>
       </section>
