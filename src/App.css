@@ -450,4 +450,22 @@ nav {
   .shop-grid {
     display: block;
   }
+  .press-header {
+    font-size: 1.5rem;
+  }
+  .press-card {
+    width: 90%;
+    display: inline-block;
+    height: auto;
+  }
+  .press-image {
+    width: 100%;
+    height: 12.5rem;
+  }
+  .press-text {
+    margin-top: 1rem;
+  }
+  .press-title {
+    font-size: 1.125rem;
+  }
 }
