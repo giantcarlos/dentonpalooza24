@@ -3,13 +3,13 @@ import React, { Component } from 'react'
 export default class Shop extends Component {
   render() {
     return (
-      <section id="shop" className="shop-grid">
-        <div className="tickets">
+      <section className="shop-grid">
+        <div id="tickets" className="tickets">
             <h3>TICKETS</h3>
             <h4>Each ticket is priced at $20</h4>
             <h4><a href="https://www.prekindle.com/event/49535-dentonpalooza-4-denton" target="_blank">BUY TICKETS ➤</a></h4>
         </div>
-        <div className="merch">
+        <div id="merch" className="merch">
             <h3>MERCHANDISE</h3>
             <h4>Stay tuned for upcoming merchandise.</h4>
             <h4>COMING SOON</h4>

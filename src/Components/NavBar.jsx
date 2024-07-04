@@ -24,8 +24,8 @@ function NavBar() {
                 <div className={active} onClick={navOff}>
                     <HashLink smooth to="#" className="links">HOME ➤</HashLink>
                     <HashLink smooth to="#lineup" className="links">LINEUP ➤</HashLink>
-                    <HashLink smooth to="#shop" className="links">TICKETS ➤</HashLink>
-                    <HashLink smooth to="#shop" className="links">MERCH ➤</HashLink>
+                    <HashLink smooth to="#tickets" className="links">TICKETS ➤</HashLink>
+                    <HashLink smooth to="#merch" className="links">MERCH ➤</HashLink>
                     <HashLink smooth to="#press" className="links">PRESS ➤</HashLink>
                 </div>
             </div>
