@@ -335,9 +335,10 @@ nav {
 .press-card {
   display: grid;
   background-color: gray;
-  height: 15rem;
-  margin-left: 8rem;
-  margin-right: 8rem;
+  height: 17.5rem;
+  width: 77.5%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 2rem;
 }
 
@@ -351,14 +352,12 @@ nav {
 
 .press-image {
   grid-column: 1;
-  width: 25rem;
-  float: left;
+  width: 30rem;
   overflow: hidden;
 }
 
 .press-image > img {
   width: 100%;
-  float: left;
   transition: 200ms transform ease-in-out;
 }
 
@@ -374,8 +373,8 @@ nav {
 .press-title {
   color:rgb(12, 12, 12);
   font-size: 1.5rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   margin-bottom: .75rem;
 }
 
