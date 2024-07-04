@@ -336,7 +336,7 @@ nav {
   display: grid;
   background-color: gray;
   height: 17.5rem;
-  width: 77.5%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
@@ -390,20 +390,26 @@ nav {
 .footer {
   margin-top: 4rem;
   border-top: 1px solid #c5c5c5;
-  width: 77.5%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 3rem;
+  margin-bottom: 7rem;
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
 }
 
 .footer a {
   color: rgb(205, 0, 0);
 }
 
-.footer-detail {
-  font-size: 1rem;
-  margin-top: 1.25rem;
+.footer-social {
+  margin-top: 1.5rem;
+  float: left;
+}
+
+.footer-dev {
+  margin-top: 1.5rem;
+  float: right;
 }
 
 
@@ -490,12 +496,17 @@ nav {
     font-size: 1.125rem;
   }
   .footer {
-    margin-top: 2rem;
-    width: 90%;
-    margin-bottom: 2rem;
-  }
-  .footer-detail {
     font-size: .925rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    width: 90%;
+  }
+  .footer-social {
     margin-top: 1rem;
+    float: none;
+  }
+  .footer-dev {
+    margin-top: .75rem;
+    float: none;
   }
 }
