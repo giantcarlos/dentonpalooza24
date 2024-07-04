@@ -30,6 +30,10 @@ a {
   color: rgb(12, 12, 12);;
 }
 
+nav a:hover {
+  color: rgb(189, 0, 0)
+}
+
 p {
   font-size: 1.125rem;
 }
