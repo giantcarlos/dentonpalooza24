@@ -62,6 +62,9 @@ nav {
   font-size: 2.25rem;
   text-align: left;
   position: fixed;
+  background-color: rgb(0, 0, 0, 7);
+  opacity: 90%;
+  height: 5rem;
   top: 0;
   right: 0;
   left: 0;
@@ -89,9 +92,8 @@ nav {
 .nav-links {
   top: 0;
   left: -200%;
-  position: absolute;
-  background-color: rgb(33, 33, 33, 4);
-  opacity: .95;
+  position: fixed;
+  background-color: rgb(44, 44, 44);
   width: 25%;
   height: 100%;
   display: flex;
@@ -109,9 +111,8 @@ nav {
 .nav-links-active {
   top: 0;
   left: 0;
-  position: absolute;
-  background-color: rgb(33, 33, 33, 4);
-  opacity: .95;
+  position: fixed;
+  background-color: rgb(44, 44, 44);
   width: 25%;
   height: 100%;
   display: flex;
@@ -427,6 +428,9 @@ nav {
 
 
 @media only screen and (max-width : 1060px) {
+  nav {
+    height: 6.375rem;
+  }
   .sub-header {
     float: none;
     text-align: center;
