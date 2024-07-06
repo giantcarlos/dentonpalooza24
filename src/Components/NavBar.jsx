@@ -14,6 +14,13 @@ function NavBar() {
         setOpen(false)
     }
 
+    const scrollWithOffset = (el) => {
+        const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+        const yOffset = -80; 
+        window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+    }
+    
+
     return (
         <nav>
             <div className="header">DENTONPALOOZA 4
@@ -22,11 +29,11 @@ function NavBar() {
                 </div>
                 <div className="sub-header">October 12, 2024 / Rubber Gloves Reahearsal Studios</div>
                 <div className={active} onClick={navOff}>
-                    <HashLink smooth to="#" className="links">HOME ➤</HashLink>
+                    <HashLink smooth to="#" className="links" scroll={el => scrollWithOffset(el)}>HOME ➤</HashLink>
                     <HashLink smooth to="#lineup" className="links">LINEUP ➤</HashLink>
-                    <HashLink smooth to="#tickets" className="links">TICKETS ➤</HashLink>
-                    <HashLink smooth to="#merch" className="links">MERCH ➤</HashLink>
-                    <HashLink smooth to="#press" className="links">PRESS ➤</HashLink>
+                    <HashLink smooth to="#tickets" className="links" scroll={el => scrollWithOffset(el)}>TICKETS ➤</HashLink>
+                    <HashLink smooth to="#merch" className="links" scroll={el => scrollWithOffset(el)}>MERCH ➤</HashLink>
+                    <HashLink smooth to="#press" className="links" scroll={el => scrollWithOffset(el)}>PRESS ➤</HashLink>
                 </div>
             </div>
         </nav>
