@@ -368,9 +368,6 @@ nav {
 
 .press-text {
   grid-column: 2;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -378,8 +375,8 @@ nav {
 .press-title {
   color:rgb(12, 12, 12);
   font-size: 1.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
   margin-bottom: .75rem;
 }
 
@@ -428,6 +425,9 @@ nav {
   .ticket-text, .ticket-text2 {
     display: none;
   }
+  .press-image {
+    width: 26.5rem;
+  }
 }
 
 
@@ -441,6 +441,9 @@ nav {
     font-size: .9rem;
     margin-top: 0;
     margin-right: 0rem;
+  }
+  .press-image {
+    width: 26.25rem;
   }
 }
 
@@ -502,6 +505,8 @@ nav {
   }
   .press-title {
     font-size: 1.125rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   .footer {
     font-size: .925rem;
