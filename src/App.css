@@ -340,7 +340,7 @@ nav {
 .press-card {
   display: grid;
   background-color: gray;
-  height: 17.5rem;
+  height: 16.5rem;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -426,7 +426,12 @@ nav {
     display: none;
   }
   .press-image {
-    width: 26.5rem;
+    width: 25.5rem;
+  }
+  .press-title {
+    font-size: 1.25rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
 
@@ -443,7 +448,12 @@ nav {
     margin-right: 0rem;
   }
   .press-image {
-    width: 26.25rem;
+    width: 24.75rem;
+  }
+  .press-title {
+    font-size: 1.25rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
 
