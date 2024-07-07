@@ -59,7 +59,6 @@ h3 {
 
 nav {
   padding: 1rem;
-  font-size: 2.25rem;
   color: white;
   text-align: left;
   position: fixed;
@@ -73,6 +72,10 @@ nav {
   z-index: 10;
   top: 0px;
   pointer-events: none;
+}
+
+.header {
+  font-size: 2.25rem;
 }
 
 .sub-header {
@@ -458,6 +461,9 @@ nav {
 }
 
 @media only screen and (max-width: 992px) {
+  .header {
+    font-size: 2.125rem;
+  }
   .hamburger {
     margin-right: .5rem;
   }
