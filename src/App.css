@@ -462,7 +462,7 @@ nav {
 
 @media only screen and (max-width: 992px) {
   .header {
-    font-size: 2.125rem;
+    font-size: 2rem;
   }
   .hamburger {
     margin-right: .5rem;
