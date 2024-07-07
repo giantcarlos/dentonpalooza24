@@ -98,7 +98,7 @@ nav {
   left: -200%;
   position: fixed;
   background-color: rgb(44, 44, 44);
-  width: 25%;
+  width: 30%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -116,7 +116,7 @@ nav {
   left: 0;
   position: fixed;
   background-color: rgb(44, 44, 44);
-  width: 25%;
+  width: 30%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -481,7 +481,7 @@ nav {
     grid-column: span 2;
   }
   .nav-links-active {
-    width: 50%;
+    width: 60%;
   }
   .image-container {
     max-width: 100%;
