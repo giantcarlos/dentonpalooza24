@@ -505,7 +505,7 @@ nav {
     display: block;
   }
   .press-header {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
@@ -522,7 +522,7 @@ nav {
     margin-top: 1rem;
   }
   .press-title {
-    font-size: 1.125rem;
+    font-size: 1rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
