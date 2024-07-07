@@ -22,7 +22,7 @@ function NavBar() {
 
     const scrollWithOffset2 = (el) => {
         const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-        const yOffset = 160; 
+        const yOffset = 80; 
         window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
     }
     
