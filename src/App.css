@@ -132,7 +132,7 @@ nav {
 .image-grid {
   
   --gap: 28px;
-  --num-cols: 5;
+  --num-cols: 6;
   --row-height: 80px;
 
   box-sizing: border-box;
@@ -173,6 +173,11 @@ nav {
 
 .image-gray {
   filter: grayscale(100%) brightness(140%) contrast(140%);
+}
+
+.image-reverse-gray-zoom {
+  filter: invert(1) hue-rotate(180deg) grayscale() brightness(160%);
+  transform: scale(1.625);
 }
 
 .message {
@@ -478,7 +483,6 @@ nav {
   }
   .message {
     font-size: 0.8rem;
-    grid-column: span 2;
   }
   .nav-links-active {
     width: 60%;
