@@ -313,7 +313,7 @@ nav {
 
 .tickets {
   align-content: center;
-  padding: 3rem;
+  padding: 4rem;
   grid-column: 1;
   background-color: rgb(39, 130, 221);
   color: rgb(12, 12, 12);
@@ -321,7 +321,7 @@ nav {
 
 .merch {
   align-content: center;
-  padding: 3rem;
+  padding: 4rem;
   grid-column: 2;
   background-color: rgb(85, 153, 79);
   color: rgb(12, 12, 12);
@@ -329,7 +329,7 @@ nav {
 
 .beneficiaries {
   align-content: center;
-  padding: 3rem;
+  padding: 4rem;
   grid-column: 3;
   background-color: rgb(219, 219, 63);
   color: rgb(12, 12, 12);
