@@ -1,9 +1,17 @@
-# React + Vite
+# **Dentonpalooza 2024**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a freelance front-end project and the official website of Denton's Dentonpalooza Festival. The year 2024 was specifically a fundraising year for Leukemia Texas, The Art Room, and The Denton Music and Arts Collaborative.
 
-Currently, two official plugins are available:
+### **Tech**
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# dentonpalooza24
+- JavaScript
+- React
+- HTML
+- CSS
+
+
+### **Live Link**
+---
+
+- https://dentonpalooza.com/
