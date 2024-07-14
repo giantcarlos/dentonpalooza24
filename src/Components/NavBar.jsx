@@ -1,6 +1,8 @@
 import Hamburger from 'hamburger-react';
 import React, { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
+import { motion } from 'framer-motion';
+
 
 function NavBar() {
     const [isOpen, setOpen] = useState(false)
@@ -31,11 +33,17 @@ function NavBar() {
         const yOffset = -120; 
         window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
     }
+
+    const item = {
+        hidden: { y: -200 },
+        show: { y: 0 },
+        trans: { }
+      }
     
 
     return (
         <nav>
-            <div className="header">DENTONPALOOZA 4
+            <motion.div variants={item} initial="hidden" animate="show" transition={{duration:1, delay:.75}} className="header">DENTONPALOOZA 4
                 <div className="hamburger" onClick={navToggle}>
                 <Hamburger toggled={isOpen} toggle={setOpen}/>
                 </div>
@@ -47,7 +55,7 @@ function NavBar() {
                     <HashLink smooth to="#merch" className="links" scroll={el => scrollWithOffset(el)}>MERCH ➤</HashLink>
                     <HashLink smooth to="#press" className="links" scroll={el => scrollWithOffset3(el)}>PRESS ➤</HashLink>
                 </div>
-            </div>
+            </motion.div>
         </nav>
     )
 }
