@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { easeIn, easeInOut, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 export default class Images extends Component {
   render() {
