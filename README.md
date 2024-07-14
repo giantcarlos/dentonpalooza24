@@ -9,6 +9,7 @@ This is a freelance front-end project and the official website of Denton's Dento
 - React
 - HTML
 - CSS
+- Framer Motion
 
 
 ### **Live Link**
