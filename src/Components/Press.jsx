@@ -13,7 +13,7 @@ export default class Press extends Component {
       <section id="press" className="press">
         <h2 className="press-header">PRESS FOR DENTONPALOOZA 4</h2>
         <div className="press-grid">
-            <motion.a initial={{ y: 250 }} whileInView={{ y: 0 }} transition={{ duration: .375 }} viewport={{ margin: "75px", once: true }} className="press-card" href="https://dentonrc.com/entertainment/dentonpalooza-4-books-dentons-mad-max-truck-invites-mayor-to-sing-nu-metal-onstage-and/article_3f17c2a2-2c1d-11ef-9010-f3ac1b7b25c4.html" target="_blank">
+            <motion.a initial={{ opacity: 0, y: 250 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: .375 }} viewport={{ margin: "75px", once: true }} className="press-card" href="https://dentonrc.com/entertainment/dentonpalooza-4-books-dentons-mad-max-truck-invites-mayor-to-sing-nu-metal-onstage-and/article_3f17c2a2-2c1d-11ef-9010-f3ac1b7b25c4.html" target="_blank">
                 <div className="press-image">
                     <img src="https://bloximages.newyork1.vip.townnews.com/dentonrc.com/content/tncms/assets/v3/editorial/b/a0/ba0c019e-2c1d-11ef-8551-37aea93f8aad/653f243f5ec69.image.jpg?resize=750%2C500" className="image-gray" alt='Joey Liechty on stage at Dentonpalooza 3' />
                 </div>
@@ -23,7 +23,7 @@ export default class Press extends Component {
                     <div className="press-details">6.18.24</div>
                 </div>
             </motion.a>
-            <motion.a initial={{ y: 250 }} whileInView={{ y: 0 }} transition={{ duration: .375 }} viewport={{ margin: "75px", once: true }} className="press-card" href="https://www.dallasobserver.com/music/denton-festival-dentonpalooza-is-back-with-more-quirkiness-19644739" target="_blank">
+            <motion.a initial={{ opacity: 0, y: 250 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: .375 }} viewport={{ margin: "75px", once: true }} className="press-card" href="https://www.dallasobserver.com/music/denton-festival-dentonpalooza-is-back-with-more-quirkiness-19644739" target="_blank">
                 <div className="press-image">
                     <img src="https://media1.dallasobserver.com/dal/imager/the-meme-keeps-giving-with-dentonpalooza-4/u/magnum/19644776/bookstallpeople.jpg?cb=1719521860" className="image-gray" alt='Books for Tall People sign at Recycled Books' />
                 </div>
