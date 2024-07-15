@@ -37,7 +37,6 @@ function NavBar() {
     const item = {
         hidden: { y: -200 },
         show: { y: 0 },
-        trans: { }
       }
     
 
