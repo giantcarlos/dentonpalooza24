@@ -11,7 +11,7 @@ export default class Press extends Component {
 
     return (
       <section id="press" className="press">
-        <h2 className="press-header">PRESS FOR DENTONPALOOZA 4</h2>
+        <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: .5 }} viewport={{ margin: "-100px", once: true }} className="press-header">PRESS FOR DENTONPALOOZA 4</motion.h2>
         <div className="press-grid">
             <motion.a initial={{ opacity: 0, y: 250 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: .375 }} viewport={{ margin: "75px", once: true }} className="press-card" href="https://dentonrc.com/entertainment/dentonpalooza-4-books-dentons-mad-max-truck-invites-mayor-to-sing-nu-metal-onstage-and/article_3f17c2a2-2c1d-11ef-9010-f3ac1b7b25c4.html" target="_blank">
                 <div className="press-image">
