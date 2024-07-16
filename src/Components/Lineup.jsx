@@ -15,7 +15,7 @@ export default class Lineup extends Component {
     return (
       <section id="lineup" className="lineup">
         <img className="books" src='https://i.imgur.com/N4vr26E.jpeg' alt='Books for Tall People sign at Recycled Books'></img>
-        <motion.img variants={variants} initial="start" whileInView="end" transition={{duration: .375}} viewport={{ once: true }} className="poster" src='https://i.imgur.com/s993AaR.jpeg' alt='Lineup poster for Dentonpalooza 4'></motion.img>
+        <motion.img variants={variants} initial="start" whileInView="end" transition={{duration: .425}} viewport={{ once: true }} className="poster" src='https://i.imgur.com/s993AaR.jpeg' alt='Lineup poster for Dentonpalooza 4'></motion.img>
         <h1 className="ticket-text">Set times coming soon!</h1>
         <h2 className="ticket-text2">Check back closer to the event.</h2>
       </section>
