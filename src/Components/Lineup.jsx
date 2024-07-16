@@ -8,7 +8,7 @@ export default class Lineup extends Component {
   const isMobile = window.innerWidth < 900;
   if (!isMobile) {
     variants = {
-      start: { y: 150 },
+      start: { y: 175 },
       end: { y: 0 }
     }}
 
