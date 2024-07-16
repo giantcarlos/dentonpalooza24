@@ -379,6 +379,7 @@ nav {
   grid-column: 2;
   margin-top: auto;
   margin-bottom: auto;
+  padding-bottom: .875rem;
 }
 
 .press-title {
@@ -386,14 +387,14 @@ nav {
   font-size: 1.5rem;
   padding-left: 4rem;
   padding-right: 4rem;
-  margin-bottom: .75rem;
+  margin-top: 1.125rem;
+  margin-bottom: .625rem;
 }
 
 .press-details {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1rem;
-  line-height: 1.5;
-  margin-bottom: .75rem;
+  line-height: 1.75;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
