@@ -384,9 +384,9 @@ nav {
 
 .press-title {
   color:rgb(12, 12, 12);
-  font-size: 1.5rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  font-size: 1.1875rem;
+  padding-left: 8.5rem;
+  padding-right: 8.5rem;
   margin-top: 1.125rem;
   margin-bottom: .625rem;
 }
@@ -425,6 +425,13 @@ nav {
 }
 
 
+@media only screen and (max-width : 1400px) {
+  .press-title {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
 @media only screen and (max-width : 1200px) {
   .poster {
     max-width: 55%;
@@ -439,7 +446,6 @@ nav {
     width: 25.5rem;
   }
   .press-title {
-    font-size: 1.25rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
@@ -459,11 +465,6 @@ nav {
   }
   .press-image {
     width: 24.75rem;
-  }
-  .press-title {
-    font-size: 1.25rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
   }
 }
 
@@ -532,8 +533,6 @@ nav {
   }
   .press-title {
     font-size: 1rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
   }
   .footer {
     font-size: .925rem;
