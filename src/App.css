@@ -310,28 +310,26 @@ nav {
   color:rgb(12, 12, 12);
 }
 
-.tickets {
+.tickets, .merch, .beneficiaries {
   align-content: center;
   padding: 4rem;
   grid-column: 1;
-  background-color: rgb(39, 130, 221);
   color: rgb(12, 12, 12);
+}
+
+.tickets {
+  grid-column: 1;
+  background-color: rgb(39, 130, 221);
 }
 
 .merch {
-  align-content: center;
-  padding: 4rem;
   grid-column: 2;
   background-color: rgb(85, 153, 79);
-  color: rgb(12, 12, 12);
 }
 
 .beneficiaries {
-  align-content: center;
-  padding: 4rem;
   grid-column: 3;
   background-color: rgb(219, 219, 63);
-  color: rgb(12, 12, 12);
 }
 
 .small-text {

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { motion } from 'framer-motion';
 
 export default class Sponsors extends Component {
