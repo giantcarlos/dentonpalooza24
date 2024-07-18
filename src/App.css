@@ -338,6 +338,10 @@ nav {
   font-weight: 400;
 }
 
+.shop-link {
+  padding-top: .45rem;
+}
+
 .press-header {
   color: #eeeeee;
   margin-top: 4rem;
