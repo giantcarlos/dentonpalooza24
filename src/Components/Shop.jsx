@@ -7,7 +7,7 @@ export default class Shop extends Component {
     const container = {
       show: {
         transition: {
-          staggerChildren: 0.075
+          staggerChildren: 0.1125
         }
       }
     }
