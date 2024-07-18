@@ -13,7 +13,7 @@ export default class Shop extends Component {
     }
 
     const item = {
-      hidden: { opacity: 0 },
+      hidden: { opacity: 1 },
       show: { opacity: 1 }
     }
 
