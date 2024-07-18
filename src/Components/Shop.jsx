@@ -13,13 +13,13 @@ export default class Shop extends Component {
     }
 
     const item = {
-      hidden: { opacity: 1 },
+      hidden: { opacity: 0 },
       show: { opacity: 1 }
     }
 
     return (
       <section className="shop-grid">
-        <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ margin: "-200px", once: true }} id="tickets" className="tickets">
+        <motion.div variants={container} initial="hidden" animate="show" viewport={{ margin: "-200px", once: true }} id="tickets" className="tickets">
             <motion.h3 variants={item}>TICKETS</motion.h3>
             <motion.h4 variants={item} className="small-text">Each ticket is priced at $20</motion.h4>
             <motion.h4 variants={item}><a href="https://www.prekindle.com/event/49535-dentonpalooza-4-denton" target="_blank">BUY TICKETS ➤</a></motion.h4>
