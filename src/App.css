@@ -168,10 +168,6 @@ nav {
   filter: invert(1) hue-rotate(180deg) grayscale() brightness(160%);
 }
 
-.image-reverse-gray-bright {
-  filter: invert(1) grayscale() brightness(130%);
-}
-
 .image-gray {
   filter: grayscale(100%) brightness(140%) contrast(140%);
 }
@@ -179,6 +175,16 @@ nav {
 .image-reverse-gray-zoom {
   filter: invert(1) hue-rotate(180deg) grayscale() brightness(160%);
   transform: scale(1.625);
+}
+
+.image-reverse-gray-zoom2 {
+  filter: invert(1) hue-rotate(180deg) grayscale() brightness(160%);
+  transform: scale(1.375);
+}
+
+.image-reverse-gray-zoom3 {
+  filter: invert(1) hue-rotate(180deg) grayscale() brightness(160%);
+  transform: scale(1.15);
 }
 
 .message {
