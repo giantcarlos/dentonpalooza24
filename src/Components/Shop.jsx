@@ -7,7 +7,7 @@ export default class Shop extends Component {
     const container = {
       show: {
         transition: {
-          staggerChildren: 0.1125
+          staggerChildren: 0.1
         }
       }
     }
@@ -19,17 +19,17 @@ export default class Shop extends Component {
 
     return (
       <section className="shop-grid">
-        <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .5, once: true }} id="tickets" className="tickets">
+        <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .4, once: true }} id="tickets" className="tickets">
             <motion.h3 variants={item}>TICKETS</motion.h3>
             <motion.h4 variants={item} className="small-text">Each ticket is priced at $20</motion.h4>
             <motion.h4 variants={item} className="shop-link"><a href="https://www.prekindle.com/event/49535-dentonpalooza-4-denton" target="_blank">BUY TICKETS ➤</a></motion.h4>
         </motion.div>
-        <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .5, once: true }} id="merch" className="merch">
+        <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .4, once: true }} id="merch" className="merch">
             <motion.h3 variants={item}>MERCHANDISE</motion.h3>
             <motion.h4 variants={item} className="small-text">Stay tuned for upcoming merchandise</motion.h4>
             <motion.h4 variants={item} className="shop-link">COMING SOON</motion.h4>
         </motion.div>
-        <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .5, once: true }} className="beneficiaries">
+        <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .4, once: true }} className="beneficiaries">
             <motion.h3 variants={item}>BENEFICIARIES</motion.h3>
             <motion.h4 variants={item} className="small-text">All funds raised benefit these organizations</motion.h4>
             <motion.h4 variants={item} className="shop-link"><a href="https://dmacdenton.org/" target="_blank">DMAC ➤</a> / <a href="https://theartroomdenton.org/" target="_blank">THE ART ROOM ➤</a> / <a href="https://leukemiatexas.org/" target="_blank">LEUKEMIA TEXAS ➤</a></motion.h4>
