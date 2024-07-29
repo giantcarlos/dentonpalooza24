@@ -46,7 +46,7 @@ function NavBar() {
                 <div className="hamburger" onClick={navToggle}>
                 <Hamburger toggled={isOpen} toggle={setOpen}/>
                 </div>
-                <div className="sub-header">October 12, 2024 / Rubber Gloves Reahearsal Studios</div>
+                <div className="sub-header">October 12, 2024 / Rubber Gloves Rehearsal Studios</div>
                 <div className={active} onClick={navOff}>
                     <HashLink smooth to="#" className="links" scroll={el => scrollWithOffset(el)}>HOME ➤</HashLink>
                     <HashLink smooth to="#lineup" className="links" scroll={el => scrollWithOffset2(el)}>LINEUP ➤</HashLink>
