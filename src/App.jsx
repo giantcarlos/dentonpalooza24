@@ -1,4 +1,5 @@
 import './App.css'
+import { useEffect } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import NavBar from './Components/NavBar';
 import Sponsors from './Components/Sponsors';
@@ -8,7 +9,6 @@ import Shop from './Components/Shop';
 import Press from './Components/Press';
 import Footer from './Components/Footer';
 import Lenis from 'lenis'
-import { useEffect } from 'react';
 
 
 function App() {
