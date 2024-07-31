@@ -4,10 +4,13 @@ import { motion } from 'framer-motion';
 export default class Lineup extends Component {
   render() {
 
-    let variants =  {
-      start: { opacity: 0 },
-      end: { opacity: 1 }
-    }
+    let variants = {};
+    const isMobile = window.innerWidth < 900;
+    if (!isMobile) {
+      variants = {
+        start: { opacity: 0 },
+        end: { opacity: 1 }
+      }}
 
     return (
       <section id="lineup" className="lineup">
