@@ -179,7 +179,7 @@ nav {
 
 .image-reverse-gray-zoom2 {
   filter: invert(1) hue-rotate(180deg) grayscale() brightness(160%);
-  transform: scale(1.375);
+  transform: scale(1.225);
 }
 
 .image-reverse-gray-zoom3 {
