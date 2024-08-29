@@ -133,8 +133,8 @@ nav {
 .image-grid {
   
   --gap: 28px;
-  --num-cols: 6;
-  --row-height: 80px;
+  --num-cols: 5;
+  --row-height: 70px;
 
   box-sizing: border-box;
   padding: 36px;
@@ -230,7 +230,7 @@ nav {
   box-shadow: 0 0 12px 12px black inset;
 }
 #pic2 {
-  background-image: url('https://i.imgur.com/C17Uy11.jpeg');
+  background-image: url('https://i.imgur.com/sazgorQ.jpeg');
   animation-delay: 5s;
   filter: grayscale() sepia(25%);
   box-shadow: 0 0 42px 42px black inset;
