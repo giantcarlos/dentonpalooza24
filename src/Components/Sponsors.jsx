@@ -22,7 +22,7 @@ export default class Sponsors extends Component {
     return (
         <motion.div variants={container} initial="hidden" animate="show" className="image-grid">
             <motion.a variants={item} href='https://www.barnhartsbarbershop.com/' className='image-gray' target="_blank"><img src={"https://i.imgur.com/nJXwjip.png"} alt='logo of Barnharts Barbershop' /></motion.a>
-            <motion.a variants={item} href='https://www.familylaw-tx.com/' className='image-reverse-gray-zoom' target="_blank"><img src={"https://i.imgur.com/arOxCaa.png"} alt='logo of MBH Family Law' /></motion.a>
+            <motion.a variants={item} href='https://www.familylaw-tx.com/' className='image-reverse-gray-out' target="_blank"><img src={"https://i.imgur.com/dqU12Pm.jpeg"} alt='logo of MBH Family Law' /></motion.a>
             <motion.a variants={item} href='https://www.morefuncomicsandgames.com/' className='image-reverse' target="_blank"><img src={"https://i.imgur.com/gTzwN6j.png"} alt='logo of More Fun Comics and Games' /></motion.a>
             <motion.a variants={item} href='https://rahrbrewing.com/' className='image-reverse-gray-zoom2' target="_blank"><img src={"https://i.imgur.com/ZJaZOZ1.png"} alt='logo of Rahr & Sons' /></motion.a>
             <motion.a variants={item} href='http://recycledbooks.com/' className='image-reverse-gray' target="_blank"><img src={"https://i.imgur.com/taLVz7q.png"} alt='logo of Recycled Books' /></motion.a>

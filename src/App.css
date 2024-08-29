@@ -187,6 +187,11 @@ nav {
   transform: scale(1.15);
 }
 
+.image-reverse-gray-out {
+  filter: invert(1) hue-rotate(180deg) grayscale() brightness(160%);
+  transform: scale(.9);
+}
+
 .message {
   font-size: .975rem;
   font-style: italic;
