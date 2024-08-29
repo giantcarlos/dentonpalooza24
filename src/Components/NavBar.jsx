@@ -42,7 +42,7 @@ function NavBar() {
 
     return (
         <nav>
-            <motion.div variants={item} initial="hidden" animate="show" transition={{duration: .75, delay:.5}} className="header">DENTONPALOOZA 4
+            <motion.div variants={item} initial="hidden" animate="show" transition={{duration: 1, delay:.75}} className="header">DENTONPALOOZA 4
                 <div className="hamburger" onClick={navToggle}>
                 <Hamburger toggled={isOpen} toggle={setOpen}/>
                 </div>

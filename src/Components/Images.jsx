@@ -9,7 +9,7 @@ export default class Images extends Component {
       trans: { }
     }
     return (
-      <motion.div variants={item} initial="hidden" animate="show" transition={{duration:.65}} className='image-container'>
+      <motion.div variants={item} initial="hidden" animate="show" transition={{duration: 1}} className='image-container'>
         <div className='pic' id='pic2' alt="Everything is Terrible on stage."/>
         <div className='pic' id='pic1' alt="Singer of Riverboat Gamblers crowdsurfing." />
     </motion.div>
