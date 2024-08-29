@@ -227,13 +227,13 @@ nav {
   animation-delay: 0s;
   background-image: url('https://i.imgur.com/nrbtvyE.jpeg');
   filter: grayscale() sepia(25%);
-  box-shadow: 0 0 12px 12px black inset;
+  box-shadow: 0 0 7px 7px black inset;
 }
 #pic2 {
   background-image: url('https://i.imgur.com/EBc5WQi.jpeg');
   animation-delay: 5s;
   filter: grayscale() sepia(25%);
-  box-shadow: 0 0 12px 12px black inset;
+  box-shadow: 0 0 7px 7px black inset;
 }
 @-webkit-keyframes fade {
   0% {
