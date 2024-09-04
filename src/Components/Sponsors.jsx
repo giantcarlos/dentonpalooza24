@@ -28,7 +28,7 @@ export default class Sponsors extends Component {
             <motion.a variants={item} href='https://www.familylaw-tx.com/' className='image-reverse-gray-out' target="_blank"><img src={"https://i.imgur.com/dqU12Pm.jpeg"} alt='logo of MBH Family Law' /></motion.a>
             <motion.a variants={item} href='https://www.morefuncomicsandgames.com/' className='image-reverse' target="_blank"><img src={"https://i.imgur.com/gTzwN6j.png"} alt='logo of More Fun Comics and Games' /></motion.a>
             <motion.a variants={item} href='https://oakstreetdrafthouse.com/' className='image-reverse-gray-zoom1' target="_blank"><img src={"https://i.imgur.com/s3YiI14.png"} alt='logo of Oak Street Drafthouse' /></motion.a>
-            <motion.a variants={item} href='https://rahrbrewing.com/' className='image-reverse-gray-zoom1' target="_blank"><img src={"https://i.imgur.com/ZJaZOZ1.png"} alt='logo of Rahr & Sons' /></motion.a>
+            <motion.a variants={item} href='https://rahrbrewing.com/' className='image-reverse-gray-zoom0' target="_blank"><img src={"https://i.imgur.com/ZJaZOZ1.png"} alt='logo of Rahr & Sons' /></motion.a>
             <motion.a variants={item} href='http://recycledbooks.com/' className='image-reverse-gray' target="_blank"><img src={"https://i.imgur.com/taLVz7q.png"} alt='logo of Recycled Books' /></motion.a>
             <motion.a variants={item} href='https://rubberglovesdenton.com/' className='image-reverse-gray-zoom3' target="_blank"><img src={"https://i.imgur.com/6ZhmD7H.png"} alt='logo of Rubber Gloves' /></motion.a>
         </motion.div>

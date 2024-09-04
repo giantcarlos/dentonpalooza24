@@ -177,6 +177,11 @@ nav {
   transform: scale(1.625);
 }
 
+.image-reverse-gray-zoom0 {
+  filter: invert(1) hue-rotate(180deg) grayscale() brightness(160%);
+  transform: scale(1.375);
+}
+
 .image-reverse-gray-zoom1 {
   filter: invert(1) hue-rotate(180deg) grayscale() brightness(160%);
   transform: scale(1.475);
@@ -511,7 +516,7 @@ nav {
     display: none;
   }
   .image-reverse-gray-zoom1{
-    transform: scale(1.375);
+    transform: scale(1.2);
   }
   .message {
     font-size: 0.8rem;
