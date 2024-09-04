@@ -8,7 +8,7 @@ export default class Sponsors extends Component {
       show: {
         opacity: 1,
         transition: {
-          delayChildren:.375,
+          delayChildren:.5,
           staggerChildren: 0.1125
         }
       }
