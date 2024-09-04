@@ -223,8 +223,8 @@ nav {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  -webkit-animation: fade 10s infinite;
-  animation: fade 10s infinite;
+  -webkit-animation: fade 15s infinite;
+  animation: fade 15s infinite;
 }
 #pic1 {
   animation-delay: 0s;
@@ -238,6 +238,12 @@ nav {
   filter: grayscale() sepia(25%);
   box-shadow: 0 0 7px 7px black inset;
 }
+#pic3 {
+  background-image: url('https://i.imgur.com/Ho6y8ei.jpeg');
+  animation-delay: 10s;
+  filter: grayscale() sepia(25%);
+  box-shadow: 0 0 7px 7px black inset;
+}
 @-webkit-keyframes fade {
   0% {
     opacity: 1;
@@ -245,10 +251,10 @@ nav {
   20% {
     opacity: 1;
   }
-  40% {
+  34% {
     opacity: 0;
   }
-  80% {
+  88% {
     opacity: 0;
   }
   100% {
@@ -262,10 +268,10 @@ nav {
   20% {
     opacity: 1;
   }
-  40% {
+  34% {
     opacity: 0;
   }
-  80% {
+  88% {
     opacity: 0;
   }
   100% {
