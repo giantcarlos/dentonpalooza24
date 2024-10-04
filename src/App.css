@@ -565,6 +565,7 @@ nav {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem;
     margin-bottom: 3rem;
   }
   .schedule {
