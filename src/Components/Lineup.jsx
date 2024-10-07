@@ -22,7 +22,8 @@ export default class Lineup extends Component {
             <div className="press-details">4:30pm -- Sidewalk Chalk Art Expo (we provide the chalk, you decorate the patio grounds)</div>
             <div className="press-details">6:00pm -- Transgender Storytime w/&nbsp;
             <a href='https://lovetothemax.net/' target="_blank">Amber Briggle</a>&nbsp;(inside stage)</div>
-            <div className="press-details">6:30pm --&nbsp;Aura&nbsp;(patio)</div>
+            <div className="press-details">6:30pm --&nbsp;
+            <a href='https://www.instagram.com/avra_music_1987/?igsh=cnM3bHExc2tzYjht' target="_blank">Aura</a>&nbsp;(patio)</div>
             <div className="press-details">7:00pm --&nbsp;
             <a href='https://darstar.bandzoogle.com/' target="_blank">Darstar</a>&nbsp;(patio)</div>
             <div className="press-details">8:00pm --&nbsp;
