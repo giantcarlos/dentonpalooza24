@@ -26,8 +26,8 @@ export default class Shop extends Component {
         </motion.div>
         <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .4, once: true }} id="merch" className="merch">
             <motion.h3 variants={item}>MERCHANDISE</motion.h3>
-            <motion.h4 variants={item} className="small-text">Dentonpalooza merch from our friends at Pan Ector</motion.h4>
-            <motion.h4 variants={item} className="shop-link"><a href="https://www.panector.com/dentonpalooza-2024/p/style-01-ej5na-zc3d9" target="_blank">SHOP NOW ➤</a></motion.h4>
+            <motion.h4 variants={item} className="small-text">Preorder merch have been printed and we are no longer taking orders</motion.h4>
+            <motion.h4 variants={item} className="shop-link">THANK YOU</motion.h4>
         </motion.div>
         <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .4, once: true }} className="beneficiaries">
             <motion.h3 variants={item}>BENEFICIARIES</motion.h3>
