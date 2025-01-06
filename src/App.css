@@ -315,7 +315,7 @@ nav {
 .schedule {
   color: #eeeeee;
   max-width: 70%;
-  background-color: rgb(32, 32, 32);
+  background-color: rgb(20, 20, 20);
   opacity: 95%;
   text-align: left;
   grid-column: 2 / 3;
@@ -333,7 +333,7 @@ nav {
 }
 
 .schedule a {
-  color: rgb(205, 0, 0);
+  color: #ff1414;
 }
 
 .shop-grid {
@@ -447,7 +447,7 @@ nav {
 }
 
 .footer a {
-  color: rgb(205, 0, 0);
+  color: #ff1414;
 }
 
 .footer-social {
